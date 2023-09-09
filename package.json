@@ -6,6 +6,7 @@
   "scripts": {
   "runHeadlessTest": "npx playwright test",
   "runHeadedTest": "npx playwright test --headed",
+  "runTestWithReport":"npx playwright test & npx playwright show-report",
   "runDebugTest": "npx playwright test --debug"
   },
   "keywords": [],
