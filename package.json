@@ -1,0 +1,17 @@
+{
+  "name": "login-auth-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "runHeadlessTest": "npx playwright test",
+  "runHeadedTest": "npx playwright test --headed",
+  "runDebugTest": "npx playwright test --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.31.2"
+  }
+}
