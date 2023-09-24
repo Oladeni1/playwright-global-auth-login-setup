@@ -1,0 +1,20 @@
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="5.759154">
+<testsuite name="..\global-setup.js" timestamp="2023-09-24T14:29:32.824Z" hostname="setup" tests="1" failures="0" skipped="0" time="1.987" errors="0">
+<testcase name="Login" classname="..\global-setup.js" time="1.987">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\global-setup.js-Login-setup\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="practicePage.spec.js" timestamp="2023-09-24T14:29:32.824Z" hostname="chromium" tests="1" failures="0" skipped="0" time="0.928" errors="0">
+<testcase name="practice page" classname="practicePage.spec.js" time="0.928">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\practicePage-practice-page-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
