@@ -1,7 +1,7 @@
 {
   "config": {
-    "configFile": "c:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\playwright.config.js",
-    "rootDir": "c:/Users/olaol/Documents/Automation_Projects/Playwright_GlobalAuthLogin_Automation/tests",
+    "configFile": "C:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\playwright.config.js",
+    "rootDir": "C:/Users/olaol/Documents/Automation_Projects/Playwright_GlobalAuthLogin_Automation/tests",
     "forbidOnly": false,
     "fullyParallel": true,
     "globalSetup": null,
@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 1
+      "actualWorkers": 4
     },
     "preserveOutput": "always",
     "reporter": [
@@ -36,7 +36,7 @@
         }
       ],
       [
-        "c:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\node_modules\\allure-playwright\\dist\\index.js",
+        "C:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\node_modules\\allure-playwright\\dist\\index.js",
         {
           "outputFolder": "allure-results"
         }
@@ -49,12 +49,12 @@
     "quiet": false,
     "projects": [
       {
-        "outputDir": "c:/Users/olaol/Documents/Automation_Projects/Playwright_GlobalAuthLogin_Automation/test-results",
+        "outputDir": "C:/Users/olaol/Documents/Automation_Projects/Playwright_GlobalAuthLogin_Automation/test-results",
         "repeatEach": 1,
         "retries": 0,
         "id": "setup",
         "name": "setup",
-        "testDir": "c:/Users/olaol/Documents/Automation_Projects/Playwright_GlobalAuthLogin_Automation",
+        "testDir": "C:/Users/olaol/Documents/Automation_Projects/Playwright_GlobalAuthLogin_Automation",
         "testIgnore": [],
         "testMatch": [
           "global-setup.js"
@@ -62,12 +62,12 @@
         "timeout": 30000
       },
       {
-        "outputDir": "c:/Users/olaol/Documents/Automation_Projects/Playwright_GlobalAuthLogin_Automation/test-results",
+        "outputDir": "C:/Users/olaol/Documents/Automation_Projects/Playwright_GlobalAuthLogin_Automation/test-results",
         "repeatEach": 1,
         "retries": 0,
         "id": "chromium",
         "name": "chromium",
-        "testDir": "c:/Users/olaol/Documents/Automation_Projects/Playwright_GlobalAuthLogin_Automation/tests",
+        "testDir": "C:/Users/olaol/Documents/Automation_Projects/Playwright_GlobalAuthLogin_Automation/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -103,17 +103,17 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 1987,
+                  "duration": 14373,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-09-24T14:29:33.408Z",
+                  "startTime": "2023-10-11T00:40:48.267Z",
                   "attachments": [
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "c:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\test-results\\global-setup.js-Login-setup\\trace.zip"
+                      "path": "C:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\test-results\\global-setup.js-Login-setup\\trace.zip"
                     }
                   ]
                 }
@@ -123,6 +123,190 @@
           ],
           "id": "db39f8d0279b09405b5f-bb133630c06ba8415fa1",
           "file": "../global-setup.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "accountPage.spec.js",
+      "file": "accountPage.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "account page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 2702,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-11T00:41:07.089Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\test-results\\accountPage-account-page-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "42d1f2887ea5777cc3bc-d13e0a0566095f77c3ed",
+          "file": "accountPage.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "addProduct.spec.js",
+      "file": "addProduct.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "add product",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 3162,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-11T00:41:07.032Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\test-results\\addProduct-add-product-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "20f3a1b60b56697f4398-be2bfe4dbb9e851c33fc",
+          "file": "addProduct.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "landingPage.spec.js",
+      "file": "landingPage.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "landing page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 2747,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-11T00:41:07.046Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\test-results\\landingPage-landing-page-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f0bebf8a9ecb0181484e-1bdd9992059f585489f1",
+          "file": "landingPage.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "logoutPage.spec.js",
+      "file": "logoutPage.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "logout page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "status": "passed",
+                  "duration": 2935,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-11T00:41:07.071Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\test-results\\logoutPage-logout-page-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47a05c58d23582c3af93-c538f1dfa94c854f549d",
+          "file": "logoutPage.spec.js",
           "line": 3,
           "column": 5
         }
@@ -149,17 +333,17 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 928,
+                  "duration": 1061,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-09-24T14:29:36.765Z",
+                  "startTime": "2023-10-11T00:41:12.584Z",
                   "attachments": [
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "c:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\test-results\\practicePage-practice-page-chromium\\trace.zip"
+                      "path": "C:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\test-results\\practicePage-practice-page-chromium\\trace.zip"
                     }
                   ]
                 }
