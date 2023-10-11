@@ -6,7 +6,7 @@
  jobs:
    e2e-tests:
      runs-on: windows-latest # or macos-latest, ubuntu-latest
-#     environment: cred
+
      steps:
        - uses: actions/checkout@v2
 
@@ -18,8 +18,7 @@
          run: npm install
 
        - name: Run tests
-#         run: npm run test
-         run: npm run github-action
+         run: npm run test
 #         env:
 #           MY_EMAIL: ${{ secrets.MY_EMAIL }}
 #           MY_PASS: ${{ secrets.MY_PASS }}
