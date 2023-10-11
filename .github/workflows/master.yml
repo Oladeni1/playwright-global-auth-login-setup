@@ -18,8 +18,8 @@
          run: npm install
 
        - name: Run tests
-         run: npm run test
-#         run: npm run github-action
+#         run: npm run test
+         run: npm run github-action
 #         env:
 #           MY_EMAIL: ${{ secrets.MY_EMAIL }}
 #           MY_PASS: ${{ secrets.MY_PASS }}
