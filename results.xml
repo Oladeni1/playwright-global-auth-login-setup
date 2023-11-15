@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="6" failures="0" skipped="0" errors="0" time="26.322843999999996">
-<testsuite name="..\global-setup.js" timestamp="2023-10-11T00:40:47.540Z" hostname="setup" tests="1" failures="0" skipped="0" time="14.373" errors="0">
-<testcase name="Login" classname="..\global-setup.js" time="14.373">
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="17.5405">
+<testsuite name="..\global-setup.js" timestamp="2023-11-15T06:57:44.740Z" hostname="setup" tests="1" failures="0" skipped="0" time="11.475" errors="0">
+<testcase name="Login" classname="..\global-setup.js" time="11.475">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\global-setup.js-Login-setup\trace.zip]]
@@ -8,47 +8,14 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="accountPage.spec.js" timestamp="2023-10-11T00:40:47.540Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.702" errors="0">
-<testcase name="account page" classname="accountPage.spec.js" time="2.702">
+<testsuite name="bigQueryTest.spec.js" timestamp="2023-11-15T06:57:44.740Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.816" errors="0">
+<testcase name="test - get simple web table" classname="bigQueryTest.spec.js" time="2.816">
 <system-out>
-<![CDATA[
-[[ATTACHMENT|..\test-results\accountPage-account-page-chromium\trace.zip]]
-]]>
-</system-out>
-</testcase>
-</testsuite>
-<testsuite name="addProduct.spec.js" timestamp="2023-10-11T00:40:47.540Z" hostname="chromium" tests="1" failures="0" skipped="0" time="3.162" errors="0">
-<testcase name="add product" classname="addProduct.spec.js" time="3.162">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|..\test-results\addProduct-add-product-chromium\trace.zip]]
-]]>
-</system-out>
-</testcase>
-</testsuite>
-<testsuite name="landingPage.spec.js" timestamp="2023-10-11T00:40:47.540Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.747" errors="0">
-<testcase name="landing page" classname="landingPage.spec.js" time="2.747">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|..\test-results\landingPage-landing-page-chromium\trace.zip]]
-]]>
-</system-out>
-</testcase>
-</testsuite>
-<testsuite name="logoutPage.spec.js" timestamp="2023-10-11T00:40:47.540Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.935" errors="0">
-<testcase name="logout page" classname="logoutPage.spec.js" time="2.935">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|..\test-results\logoutPage-logout-page-chromium\trace.zip]]
-]]>
-</system-out>
-</testcase>
-</testsuite>
-<testsuite name="practicePage.spec.js" timestamp="2023-10-11T00:40:47.540Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.061" errors="0">
-<testcase name="practice page" classname="practicePage.spec.js" time="1.061">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|..\test-results\practicePage-practice-page-chromium\trace.zip]]
+<![CDATA[[ [32m'First nameLast nameEmail addressPresent/Absent'[39m ]
+Rows count: 3
+Cols count: 4
+
+[[ATTACHMENT|..\test-results\bigQueryTest-test---get-simple-web-table-chromium\trace.zip]]
 ]]>
 </system-out>
 </testcase>
