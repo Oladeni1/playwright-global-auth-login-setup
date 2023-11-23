@@ -103,12 +103,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 11475,
+                  "duration": 2293,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-11-15T06:57:45.399Z",
+                  "startTime": "2023-11-23T00:09:54.884Z",
                   "attachments": [
                     {
                       "name": "trace",
@@ -129,13 +129,13 @@
       ]
     },
     {
-      "title": "bigQueryTest.spec.js",
-      "file": "bigQueryTest.spec.js",
+      "title": "multipleWindowsTab.spec.js",
+      "file": "multipleWindowsTab.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "test - get simple web table",
+          "title": "handling multiple tabs",
           "ok": true,
           "tags": [],
           "tests": [
@@ -149,27 +149,17 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 2816,
+                  "duration": 4546,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "[ \u001b[32m'First nameLast nameEmail addressPresent/Absent'\u001b[39m ]\n"
-                    },
-                    {
-                      "text": "Rows count: 3\n"
-                    },
-                    {
-                      "text": "Cols count: 4\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-11-15T06:57:58.440Z",
+                  "startTime": "2023-11-23T00:09:58.722Z",
                   "attachments": [
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "c:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\test-results\\bigQueryTest-test---get-simple-web-table-chromium\\trace.zip"
+                      "path": "c:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\test-results\\multipleWindowsTab-handling-multiple-tabs-chromium\\trace.zip"
                     }
                   ]
                 }
@@ -177,9 +167,9 @@
               "status": "expected"
             }
           ],
-          "id": "f9a0eed34eb5e4830d55-24c3217d2a1b04b0cce3",
-          "file": "bigQueryTest.spec.js",
-          "line": 35,
+          "id": "c69d41c8e6f7ddba6c69-b147ae479552ad8a24b9",
+          "file": "multipleWindowsTab.spec.js",
+          "line": 3,
           "column": 5
         }
       ]
