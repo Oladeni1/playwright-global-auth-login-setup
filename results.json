@@ -103,12 +103,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 2293,
+                  "duration": 2269,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-11-23T00:09:54.884Z",
+                  "startTime": "2023-12-10T21:37:30.988Z",
                   "attachments": [
                     {
                       "name": "trace",
@@ -129,48 +129,57 @@
       ]
     },
     {
-      "title": "multipleWindowsTab.spec.js",
-      "file": "multipleWindowsTab.spec.js",
+      "title": "accountPage_EdgeBrowser.spec.js",
+      "file": "accountPage_EdgeBrowser.spec.js",
       "column": 0,
       "line": 0,
-      "specs": [
+      "specs": [],
+      "suites": [
         {
-          "title": "handling multiple tabs",
-          "ok": true,
-          "tags": [],
-          "tests": [
+          "title": "Launch test in MS Edge browser local",
+          "file": "accountPage_EdgeBrowser.spec.js",
+          "line": 3,
+          "column": 6,
+          "specs": [
             {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
+              "title": "account page",
+              "ok": true,
+              "tags": [],
+              "tests": [
                 {
-                  "workerIndex": 1,
-                  "status": "passed",
-                  "duration": 4546,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-11-23T00:09:58.722Z",
-                  "attachments": [
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
                     {
-                      "name": "trace",
-                      "contentType": "application/zip",
-                      "path": "c:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\test-results\\multipleWindowsTab-handling-multiple-tabs-chromium\\trace.zip"
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 1985,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-12-10T21:37:34.833Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "c:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\test-results\\accountPage_EdgeBrowser-Launch-test-in-MS-Edge-browser-local-account-page-chromium\\trace.zip"
+                        }
+                      ]
                     }
-                  ]
+                  ],
+                  "status": "expected"
                 }
               ],
-              "status": "expected"
+              "id": "8ec41c4f3cc4dabb4e4c-6eb902196e1908b001bb",
+              "file": "accountPage_EdgeBrowser.spec.js",
+              "line": 16,
+              "column": 7
             }
-          ],
-          "id": "c69d41c8e6f7ddba6c69-b147ae479552ad8a24b9",
-          "file": "multipleWindowsTab.spec.js",
-          "line": 3,
-          "column": 5
+          ]
         }
       ]
     }

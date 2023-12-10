@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="10.037646">
-<testsuite name="..\global-setup.js" timestamp="2023-11-23T00:09:54.256Z" hostname="setup" tests="1" failures="0" skipped="0" time="2.293" errors="0">
-<testcase name="Login" classname="..\global-setup.js" time="2.293">
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="9.67988">
+<testsuite name="..\global-setup.js" timestamp="2023-12-10T21:37:30.364Z" hostname="setup" tests="1" failures="0" skipped="0" time="2.269" errors="0">
+<testcase name="Login" classname="..\global-setup.js" time="2.269">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\global-setup.js-Login-setup\trace.zip]]
@@ -8,11 +8,11 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="multipleWindowsTab.spec.js" timestamp="2023-11-23T00:09:54.256Z" hostname="chromium" tests="1" failures="0" skipped="0" time="4.546" errors="0">
-<testcase name="handling multiple tabs" classname="multipleWindowsTab.spec.js" time="4.546">
+<testsuite name="accountPage_EdgeBrowser.spec.js" timestamp="2023-12-10T21:37:30.364Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.985" errors="0">
+<testcase name="Launch test in MS Edge browser local › account page" classname="accountPage_EdgeBrowser.spec.js" time="1.985">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\multipleWindowsTab-handling-multiple-tabs-chromium\trace.zip]]
+[[ATTACHMENT|..\test-results\accountPage_EdgeBrowser-Launch-test-in-MS-Edge-browser-local-account-page-chromium\trace.zip]]
 ]]>
 </system-out>
 </testcase>
