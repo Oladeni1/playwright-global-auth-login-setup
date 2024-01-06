@@ -20,9 +20,7 @@ pipeline {
     }
     stage('run e2e tests') {
       steps {
-         bat'''
-          npx playwright test --headed
-        '''
+         bat 'npx playwright test --headed'
       }
     }
   }
