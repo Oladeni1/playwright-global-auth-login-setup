@@ -1,7 +1,7 @@
 {
   "config": {
-    "configFile": "c:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\playwright.config.js",
-    "rootDir": "c:/Users/olaol/Documents/Automation_Projects/Playwright_GlobalAuthLogin_Automation/tests",
+    "configFile": "C:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\playwright.config.js",
+    "rootDir": "C:/Users/olaol/Documents/Automation_Projects/Playwright_GlobalAuthLogin_Automation/tests",
     "forbidOnly": false,
     "fullyParallel": true,
     "globalSetup": null,
@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 1
+      "actualWorkers": 4
     },
     "preserveOutput": "always",
     "reporter": [
@@ -36,7 +36,7 @@
         }
       ],
       [
-        "c:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\node_modules\\allure-playwright\\dist\\index.js",
+        "C:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\node_modules\\allure-playwright\\dist\\index.js",
         {
           "outputFolder": "allure-results"
         }
@@ -49,12 +49,12 @@
     "quiet": false,
     "projects": [
       {
-        "outputDir": "c:/Users/olaol/Documents/Automation_Projects/Playwright_GlobalAuthLogin_Automation/test-results",
+        "outputDir": "C:/Users/olaol/Documents/Automation_Projects/Playwright_GlobalAuthLogin_Automation/test-results",
         "repeatEach": 1,
         "retries": 0,
         "id": "setup",
         "name": "setup",
-        "testDir": "c:/Users/olaol/Documents/Automation_Projects/Playwright_GlobalAuthLogin_Automation",
+        "testDir": "C:/Users/olaol/Documents/Automation_Projects/Playwright_GlobalAuthLogin_Automation",
         "testIgnore": [],
         "testMatch": [
           "global-setup.js"
@@ -62,12 +62,12 @@
         "timeout": 30000
       },
       {
-        "outputDir": "c:/Users/olaol/Documents/Automation_Projects/Playwright_GlobalAuthLogin_Automation/test-results",
+        "outputDir": "C:/Users/olaol/Documents/Automation_Projects/Playwright_GlobalAuthLogin_Automation/test-results",
         "repeatEach": 1,
         "retries": 0,
         "id": "chromium",
         "name": "chromium",
-        "testDir": "c:/Users/olaol/Documents/Automation_Projects/Playwright_GlobalAuthLogin_Automation/tests",
+        "testDir": "C:/Users/olaol/Documents/Automation_Projects/Playwright_GlobalAuthLogin_Automation/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -103,17 +103,17 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 2269,
+                  "duration": 1512,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-12-10T21:37:30.988Z",
+                  "startTime": "2024-01-06T08:02:08.945Z",
                   "attachments": [
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "c:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\test-results\\global-setup.js-Login-setup\\trace.zip"
+                      "path": "C:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\test-results\\global-setup.js-Login-setup\\trace.zip"
                     }
                   ]
                 }
@@ -156,17 +156,17 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 1985,
+                      "duration": 3326,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-12-10T21:37:34.833Z",
+                      "startTime": "2024-01-06T08:02:12.304Z",
                       "attachments": [
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "c:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\test-results\\accountPage_EdgeBrowser-Launch-test-in-MS-Edge-browser-local-account-page-chromium\\trace.zip"
+                          "path": "C:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\test-results\\accountPage_EdgeBrowser-Launch-test-in-MS-Edge-browser-local-account-page-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -180,6 +180,551 @@
               "column": 7
             }
           ]
+        }
+      ]
+    },
+    {
+      "title": "accountPage.spec.js",
+      "file": "accountPage.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "account page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 3030,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-01-06T08:02:12.301Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\test-results\\accountPage-account-page-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "42d1f2887ea5777cc3bc-d13e0a0566095f77c3ed",
+          "file": "accountPage.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "addProduct.spec.js",
+      "file": "addProduct.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "add product",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 4462,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-01-06T08:02:12.415Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\test-results\\addProduct-add-product-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "20f3a1b60b56697f4398-be2bfe4dbb9e851c33fc",
+          "file": "addProduct.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "bigQueryTest.spec.js",
+      "file": "bigQueryTest.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "test - get entire row of Cupcake from table from text in a cell",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "status": "passed",
+                  "duration": 6545,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Cupcake\t\n305\t\n4\t\n67\t\n4\t\n50\t\n\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-01-06T08:02:12.348Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\test-results\\bigQueryTest-test---get-entire-row-of-Cupcake-from-table-from-text-in-a-cell-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f9a0eed34eb5e4830d55-3d41dd69364515cae793",
+          "file": "bigQueryTest.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "test - get entire row Frozen yogurt of from table from text in a cell",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 6102,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Frozen yogurt\t\n159\t\n6\t\n24\t\n4\t\n70\t\n\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-01-06T08:02:18.958Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\test-results\\bigQueryTest-test---get-entire-row-Frozen-yogurt-of-from-table-from-text-in-a-cell-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f9a0eed34eb5e4830d55-bde6cf0e0f706bf5ee93",
+          "file": "bigQueryTest.spec.js",
+          "line": 14,
+          "column": 5
+        },
+        {
+          "title": "test - get text from a specific column from a table in Playwright ",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 12398,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Joe Black\t32\tSydney No. 1 Lake Park\tCOOLTEACHER\t\nInvite Joe Black\nDelete\n"
+                    },
+                    {
+                      "text": "Joe\tBlack\t32\tSydney No. 1 Lake Park\tcoolteacher\t\nInvite Black\nDelete\n"
+                    },
+                    {
+                      "text": "\tJoe Black\t32\tSydney No. 1 Lake Park\n"
+                    },
+                    {
+                      "text": "\tEdward King 3\t32\tLondon, Park Lane no. 3\n"
+                    },
+                    {
+                      "text": "\tEdward King 3\t32\tLondon, Park Lane no. 3\n"
+                    },
+                    {
+                      "text": "Joe Black\t32\tSydney No. 1 Lake Park\n"
+                    },
+                    {
+                      "text": "Joe Black\t32\tSydney No. 1 Lake Park\n"
+                    },
+                    {
+                      "text": "Joe Black\t32\tSydney No. 1 Lake Park\n"
+                    },
+                    {
+                      "text": "Joe Black\t98\t90\t70\n"
+                    },
+                    {
+                      "text": "Joe Black\t32\tSydney No. 1 Lake Park\n"
+                    },
+                    {
+                      "text": "Jim Green\t32\tSydney No. 1 Lake Park\n"
+                    },
+                    {
+                      "text": "Joe Black\t32\tSydney No. 1 Lake Park\n"
+                    },
+                    {
+                      "text": "Joe Black\t32\tSydney No. 1 Lake Park\n"
+                    },
+                    {
+                      "text": "Joe Black\t￥120,000.00\tSydney No. 1 Lake Park\n"
+                    },
+                    {
+                      "text": "\tNot Expandable\t29\tJiangsu No. 1 Lake Park\tDelete\n"
+                    },
+                    {
+                      "text": "Not Expandable\t\t29\t\n\tJiangsu No. 1 Lake Park\n"
+                    },
+                    {
+                      "text": "3\tJoe Black\t32\t0575-22098909\t18900010002\tSydney No. 1 Lake Park\n"
+                    },
+                    {
+                      "text": "Edward King 3\t32\tLondon, Park Lane no. 3\n"
+                    },
+                    {
+                      "text": "Edward 3\t32\tLondon Park no. 3\tLondon Park no. 3\tLondon Park no. 3\tLondon Park no. 3\tLondon Park no. 3\tLondon Park no. 3\tLondon Park no. 3\tLondon Park no. 3\taction\n"
+                    },
+                    {
+                      "text": "John Brown\t4\tLake Park\tC\t2035\tLake Street 42\tSoftLake Co\tM\n"
+                    },
+                    {
+                      "text": "Edward 3\t32\tLondon Park no. 3\tEdit\n"
+                    },
+                    {
+                      "text": "Joe Black\t32\tSidney No. 1 Lake Park\n"
+                    },
+                    {
+                      "text": "\tJoe Black\t32\tSidney No. 1 Lake Park\n"
+                    },
+                    {
+                      "text": "Joe Black\t32\tSydney No. 1 Lake Park, Sydney No. 1 Lake Park\tSydney No. 1 Lake Park, Sydney No. 1 Lake Park\tSydney No. 1 Lake Park, Sydney No. 1 Lake Park\tSydney No. 1 Lake Park, Sydney No. 1 Lake Park\n"
+                    },
+                    {
+                      "text": "Joe Black\t32\tSydney No. 1 Lake Park, Sydney No. 1 Lake Park\tSydney No. 1 Lake Park, Sydney No. 1 Lake Park\tSydney No. 1 Lake Park, Sydney No. 1 Lake Park\tSydney No. 1 Lake Park, Sydney No. 1 Lake Park\n"
+                    },
+                    {
+                      "text": "Joe Black\t10\t10\n"
+                    },
+                    {
+                      "text": "Light\tEverything that has a beginning, has an end.\n"
+                    },
+                    {
+                      "text": "Joe Black\t32\tSydney No. 1 Lake Park\tCOOLTEACHER\t\nInvite Joe Black\nDelete\n"
+                    },
+                    {
+                      "text": "Edward 3\t32\tLondon Park no. 3\tLondon Park no. 3\tLondon Park no. 3\tLondon Park no. 3\tLondon Park no. 3\tLondon Park no. 3\tLondon Park no. 3\tLondon Park no. 3\taction\n"
+                    },
+                    {
+                      "text": "\t\n\tJohn Brown\t32\tNew York No. 3 Lake Park\t\nDelete\nMore actions\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-01-06T08:02:20.554Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\test-results\\bigQueryTest-test---get-text-from-a-specific-column-from-a-table-in-Playwright--chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f9a0eed34eb5e4830d55-664a78c072e48bc95eb5",
+          "file": "bigQueryTest.spec.js",
+          "line": 24,
+          "column": 5
+        },
+        {
+          "title": "test - get simple web table",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 5675,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "[ \u001b[32m'First nameLast nameEmail addressPresent/Absent'\u001b[39m ]\n"
+                    },
+                    {
+                      "text": "Rows count: 3\n"
+                    },
+                    {
+                      "text": "Cols count: 4\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-01-06T08:02:20.633Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\test-results\\bigQueryTest-test---get-simple-web-table-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f9a0eed34eb5e4830d55-24c3217d2a1b04b0cce3",
+          "file": "bigQueryTest.spec.js",
+          "line": 35,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "landingPage.spec.js",
+      "file": "landingPage.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "landing page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "status": "passed",
+                  "duration": 2158,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-01-06T08:02:22.500Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\test-results\\landingPage-landing-page-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f0bebf8a9ecb0181484e-1bdd9992059f585489f1",
+          "file": "landingPage.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "logoutPage.spec.js",
+      "file": "logoutPage.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "logout page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "status": "passed",
+                  "duration": 2476,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-01-06T08:02:24.672Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\test-results\\logoutPage-logout-page-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47a05c58d23582c3af93-c538f1dfa94c854f549d",
+          "file": "logoutPage.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "multipleWindowsTabs.spec.js",
+      "file": "multipleWindowsTabs.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "handling multiple windows tabs",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 6199,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-01-06T08:02:25.086Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\test-results\\multipleWindowsTabs-handling-multiple-windows-tabs-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "fc16ebd17cdbe4c2ee17-adee83163af7ea5979a5",
+          "file": "multipleWindowsTabs.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "practicePage.spec.js",
+      "file": "practicePage.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "practice page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 2256,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-01-06T08:02:26.319Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\olaol\\Documents\\Automation_Projects\\Playwright_GlobalAuthLogin_Automation\\test-results\\practicePage-practice-page-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eb6ca09a209c9664480c-25e7d5745bafea60cb2f",
+          "file": "practicePage.spec.js",
+          "line": 3,
+          "column": 5
         }
       ]
     }

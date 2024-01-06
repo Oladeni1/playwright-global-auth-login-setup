@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="9.67988">
-<testsuite name="..\global-setup.js" timestamp="2023-12-10T21:37:30.364Z" hostname="setup" tests="1" failures="0" skipped="0" time="2.269" errors="0">
-<testcase name="Login" classname="..\global-setup.js" time="2.269">
+<testsuites id="" name="" tests="12" failures="0" skipped="0" errors="0" time="25.164422000000002">
+<testsuite name="..\global-setup.js" timestamp="2024-01-06T08:02:08.334Z" hostname="setup" tests="1" failures="0" skipped="0" time="1.512" errors="0">
+<testcase name="Login" classname="..\global-setup.js" time="1.512">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\global-setup.js-Login-setup\trace.zip]]
@@ -8,11 +8,152 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="accountPage_EdgeBrowser.spec.js" timestamp="2023-12-10T21:37:30.364Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.985" errors="0">
-<testcase name="Launch test in MS Edge browser local › account page" classname="accountPage_EdgeBrowser.spec.js" time="1.985">
+<testsuite name="accountPage_EdgeBrowser.spec.js" timestamp="2024-01-06T08:02:08.334Z" hostname="chromium" tests="1" failures="0" skipped="0" time="3.326" errors="0">
+<testcase name="Launch test in MS Edge browser local › account page" classname="accountPage_EdgeBrowser.spec.js" time="3.326">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\accountPage_EdgeBrowser-Launch-test-in-MS-Edge-browser-local-account-page-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="accountPage.spec.js" timestamp="2024-01-06T08:02:08.334Z" hostname="chromium" tests="1" failures="0" skipped="0" time="3.03" errors="0">
+<testcase name="account page" classname="accountPage.spec.js" time="3.03">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\accountPage-account-page-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="addProduct.spec.js" timestamp="2024-01-06T08:02:08.334Z" hostname="chromium" tests="1" failures="0" skipped="0" time="4.462" errors="0">
+<testcase name="add product" classname="addProduct.spec.js" time="4.462">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\addProduct-add-product-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="bigQueryTest.spec.js" timestamp="2024-01-06T08:02:08.334Z" hostname="chromium" tests="4" failures="0" skipped="0" time="30.72" errors="0">
+<testcase name="test - get entire row of Cupcake from table from text in a cell" classname="bigQueryTest.spec.js" time="6.545">
+<system-out>
+<![CDATA[Cupcake	
+305	
+4	
+67	
+4	
+50	
+
+
+[[ATTACHMENT|..\test-results\bigQueryTest-test---get-entire-row-of-Cupcake-from-table-from-text-in-a-cell-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="test - get entire row Frozen yogurt of from table from text in a cell" classname="bigQueryTest.spec.js" time="6.102">
+<system-out>
+<![CDATA[Frozen yogurt	
+159	
+6	
+24	
+4	
+70	
+
+
+[[ATTACHMENT|..\test-results\bigQueryTest-test---get-entire-row-Frozen-yogurt-of-from-table-from-text-in-a-cell-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="test - get text from a specific column from a table in Playwright " classname="bigQueryTest.spec.js" time="12.398">
+<system-out>
+<![CDATA[Joe Black	32	Sydney No. 1 Lake Park	COOLTEACHER	
+Invite Joe Black
+Delete
+Joe	Black	32	Sydney No. 1 Lake Park	coolteacher	
+Invite Black
+Delete
+	Joe Black	32	Sydney No. 1 Lake Park
+	Edward King 3	32	London, Park Lane no. 3
+	Edward King 3	32	London, Park Lane no. 3
+Joe Black	32	Sydney No. 1 Lake Park
+Joe Black	32	Sydney No. 1 Lake Park
+Joe Black	32	Sydney No. 1 Lake Park
+Joe Black	98	90	70
+Joe Black	32	Sydney No. 1 Lake Park
+Jim Green	32	Sydney No. 1 Lake Park
+Joe Black	32	Sydney No. 1 Lake Park
+Joe Black	32	Sydney No. 1 Lake Park
+Joe Black	￥120,000.00	Sydney No. 1 Lake Park
+	Not Expandable	29	Jiangsu No. 1 Lake Park	Delete
+Not Expandable		29	
+	Jiangsu No. 1 Lake Park
+3	Joe Black	32	0575-22098909	18900010002	Sydney No. 1 Lake Park
+Edward King 3	32	London, Park Lane no. 3
+Edward 3	32	London Park no. 3	London Park no. 3	London Park no. 3	London Park no. 3	London Park no. 3	London Park no. 3	London Park no. 3	London Park no. 3	action
+John Brown	4	Lake Park	C	2035	Lake Street 42	SoftLake Co	M
+Edward 3	32	London Park no. 3	Edit
+Joe Black	32	Sidney No. 1 Lake Park
+	Joe Black	32	Sidney No. 1 Lake Park
+Joe Black	32	Sydney No. 1 Lake Park, Sydney No. 1 Lake Park	Sydney No. 1 Lake Park, Sydney No. 1 Lake Park	Sydney No. 1 Lake Park, Sydney No. 1 Lake Park	Sydney No. 1 Lake Park, Sydney No. 1 Lake Park
+Joe Black	32	Sydney No. 1 Lake Park, Sydney No. 1 Lake Park	Sydney No. 1 Lake Park, Sydney No. 1 Lake Park	Sydney No. 1 Lake Park, Sydney No. 1 Lake Park	Sydney No. 1 Lake Park, Sydney No. 1 Lake Park
+Joe Black	10	10
+Light	Everything that has a beginning, has an end.
+Joe Black	32	Sydney No. 1 Lake Park	COOLTEACHER	
+Invite Joe Black
+Delete
+Edward 3	32	London Park no. 3	London Park no. 3	London Park no. 3	London Park no. 3	London Park no. 3	London Park no. 3	London Park no. 3	London Park no. 3	action
+	
+	John Brown	32	New York No. 3 Lake Park	
+Delete
+More actions
+
+[[ATTACHMENT|..\test-results\bigQueryTest-test---get-text-from-a-specific-column-from-a-table-in-Playwright--chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="test - get simple web table" classname="bigQueryTest.spec.js" time="5.675">
+<system-out>
+<![CDATA[[ [32m'First nameLast nameEmail addressPresent/Absent'[39m ]
+Rows count: 3
+Cols count: 4
+
+[[ATTACHMENT|..\test-results\bigQueryTest-test---get-simple-web-table-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="landingPage.spec.js" timestamp="2024-01-06T08:02:08.334Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.158" errors="0">
+<testcase name="landing page" classname="landingPage.spec.js" time="2.158">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\landingPage-landing-page-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="logoutPage.spec.js" timestamp="2024-01-06T08:02:08.334Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.476" errors="0">
+<testcase name="logout page" classname="logoutPage.spec.js" time="2.476">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\logoutPage-logout-page-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="multipleWindowsTabs.spec.js" timestamp="2024-01-06T08:02:08.334Z" hostname="chromium" tests="1" failures="0" skipped="0" time="6.199" errors="0">
+<testcase name="handling multiple windows tabs" classname="multipleWindowsTabs.spec.js" time="6.199">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\multipleWindowsTabs-handling-multiple-windows-tabs-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="practicePage.spec.js" timestamp="2024-01-06T08:02:08.334Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.256" errors="0">
+<testcase name="practice page" classname="practicePage.spec.js" time="2.256">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\practicePage-practice-page-chromium\trace.zip]]
 ]]>
 </system-out>
 </testcase>

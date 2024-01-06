@@ -21,7 +21,7 @@ pipeline {
     stage('run e2e tests') {
       steps {
         bat '''
-          npx playwright test
+          npx playwright test --headed
         '''
       }
     }
