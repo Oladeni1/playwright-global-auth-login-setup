@@ -18,18 +18,11 @@ pipeline {
         bat 'npx playwright test --help'
       }
     }
-    stage('run 2e2 tests') {
+    stage('run e2e tests') {
       steps {
         bat '''
-          npx playwright test --list
           npx playwright test
         '''
-      }
-      post {
-        success {
-          archiveArtifacts(artifacts: 'homepage-*.png', followSymlinks: false)
-          bat 'rm -rf *.png'
-        }
       }
     }
   }
