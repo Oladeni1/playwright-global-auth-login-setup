@@ -5,15 +5,12 @@ pipeline {
     } 
   }
   stages {
-    stage('install playwright test') {
-      steps {
-        bat 'npm i -D @playwright/test'
-        
-      }
-    }
     stage('install playwright') {
       steps {
-        bat 'npx playwright install'
+        sh '''
+          npm i -D @playwright/test
+          npx playwright install
+        '''
       }
     }
     stage('help') {
@@ -21,9 +18,18 @@ pipeline {
         sh 'npx playwright test --help'
       }
     }
-    stage('run e2e tests') {
+    stage('test') {
       steps {
-        bat 'npx playwright test' 
+        sh '''
+          npx playwright test --list
+          npx playwright test
+        '''
+      }
+      post {
+        success {
+          archiveArtifacts(artifacts: 'homepage-*.png', followSymlinks: false)
+          sh 'rm -rf *.png'
+        }
       }
     }
   }
