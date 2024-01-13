@@ -6,9 +6,6 @@ pipeline {
   }
   stages {
     stage('install playwright') {
-      environment {
-                  HOME="C:/ProgramData/Jenkins/.jenkins/workspace/Jenkins-Playwright-Pipeline/"
-                }
       steps {
         sh '''
           npm i -D @playwright/test

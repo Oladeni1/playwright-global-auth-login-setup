@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="12" failures="0" skipped="0" errors="0" time="25.164422000000002">
-<testsuite name="..\global-setup.js" timestamp="2024-01-06T08:02:08.334Z" hostname="setup" tests="1" failures="0" skipped="0" time="1.512" errors="0">
-<testcase name="Login" classname="..\global-setup.js" time="1.512">
+<testsuites id="" name="" tests="12" failures="0" skipped="0" errors="0" time="31.806760999999998">
+<testsuite name="..\global-setup.js" timestamp="2024-01-13T03:33:48.959Z" hostname="setup" tests="1" failures="0" skipped="0" time="12.019" errors="0">
+<testcase name="Login" classname="..\global-setup.js" time="12.019">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\global-setup.js-Login-setup\trace.zip]]
@@ -8,8 +8,8 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="accountPage_EdgeBrowser.spec.js" timestamp="2024-01-06T08:02:08.334Z" hostname="chromium" tests="1" failures="0" skipped="0" time="3.326" errors="0">
-<testcase name="Launch test in MS Edge browser local › account page" classname="accountPage_EdgeBrowser.spec.js" time="3.326">
+<testsuite name="accountPage_EdgeBrowser.spec.js" timestamp="2024-01-13T03:33:48.959Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.064" errors="0">
+<testcase name="Launch test in MS Edge browser local › account page" classname="accountPage_EdgeBrowser.spec.js" time="2.064">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\accountPage_EdgeBrowser-Launch-test-in-MS-Edge-browser-local-account-page-chromium\trace.zip]]
@@ -17,8 +17,8 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="accountPage.spec.js" timestamp="2024-01-06T08:02:08.334Z" hostname="chromium" tests="1" failures="0" skipped="0" time="3.03" errors="0">
-<testcase name="account page" classname="accountPage.spec.js" time="3.03">
+<testsuite name="accountPage.spec.js" timestamp="2024-01-13T03:33:48.959Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.44" errors="0">
+<testcase name="account page" classname="accountPage.spec.js" time="2.44">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\accountPage-account-page-chromium\trace.zip]]
@@ -26,8 +26,8 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="addProduct.spec.js" timestamp="2024-01-06T08:02:08.334Z" hostname="chromium" tests="1" failures="0" skipped="0" time="4.462" errors="0">
-<testcase name="add product" classname="addProduct.spec.js" time="4.462">
+<testsuite name="addProduct.spec.js" timestamp="2024-01-13T03:33:48.959Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.923" errors="0">
+<testcase name="add product" classname="addProduct.spec.js" time="2.923">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\addProduct-add-product-chromium\trace.zip]]
@@ -35,8 +35,8 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="bigQueryTest.spec.js" timestamp="2024-01-06T08:02:08.334Z" hostname="chromium" tests="4" failures="0" skipped="0" time="30.72" errors="0">
-<testcase name="test - get entire row of Cupcake from table from text in a cell" classname="bigQueryTest.spec.js" time="6.545">
+<testsuite name="bigQueryTest.spec.js" timestamp="2024-01-13T03:33:48.959Z" hostname="chromium" tests="4" failures="0" skipped="0" time="24.263" errors="0">
+<testcase name="test - get entire row of Cupcake from table from text in a cell" classname="bigQueryTest.spec.js" time="5.697">
 <system-out>
 <![CDATA[Cupcake	
 305	
@@ -50,7 +50,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="test - get entire row Frozen yogurt of from table from text in a cell" classname="bigQueryTest.spec.js" time="6.102">
+<testcase name="test - get entire row Frozen yogurt of from table from text in a cell" classname="bigQueryTest.spec.js" time="3.88">
 <system-out>
 <![CDATA[Frozen yogurt	
 159	
@@ -64,7 +64,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="test - get text from a specific column from a table in Playwright " classname="bigQueryTest.spec.js" time="12.398">
+<testcase name="test - get text from a specific column from a table in Playwright " classname="bigQueryTest.spec.js" time="10.955">
 <system-out>
 <![CDATA[Joe Black	32	Sydney No. 1 Lake Park	COOLTEACHER	
 Invite Joe Black
@@ -111,7 +111,7 @@ More actions
 ]]>
 </system-out>
 </testcase>
-<testcase name="test - get simple web table" classname="bigQueryTest.spec.js" time="5.675">
+<testcase name="test - get simple web table" classname="bigQueryTest.spec.js" time="3.731">
 <system-out>
 <![CDATA[[ [32m'First nameLast nameEmail addressPresent/Absent'[39m ]
 Rows count: 3
@@ -122,8 +122,8 @@ Cols count: 4
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="landingPage.spec.js" timestamp="2024-01-06T08:02:08.334Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.158" errors="0">
-<testcase name="landing page" classname="landingPage.spec.js" time="2.158">
+<testsuite name="landingPage.spec.js" timestamp="2024-01-13T03:33:48.959Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.213" errors="0">
+<testcase name="landing page" classname="landingPage.spec.js" time="1.213">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\landingPage-landing-page-chromium\trace.zip]]
@@ -131,8 +131,8 @@ Cols count: 4
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="logoutPage.spec.js" timestamp="2024-01-06T08:02:08.334Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.476" errors="0">
-<testcase name="logout page" classname="logoutPage.spec.js" time="2.476">
+<testsuite name="logoutPage.spec.js" timestamp="2024-01-13T03:33:48.959Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.339" errors="0">
+<testcase name="logout page" classname="logoutPage.spec.js" time="1.339">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\logoutPage-logout-page-chromium\trace.zip]]
@@ -140,8 +140,8 @@ Cols count: 4
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="multipleWindowsTabs.spec.js" timestamp="2024-01-06T08:02:08.334Z" hostname="chromium" tests="1" failures="0" skipped="0" time="6.199" errors="0">
-<testcase name="handling multiple windows tabs" classname="multipleWindowsTabs.spec.js" time="6.199">
+<testsuite name="multipleWindowsTabs.spec.js" timestamp="2024-01-13T03:33:48.959Z" hostname="chromium" tests="1" failures="0" skipped="0" time="4.928" errors="0">
+<testcase name="handling multiple windows tabs" classname="multipleWindowsTabs.spec.js" time="4.928">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\multipleWindowsTabs-handling-multiple-windows-tabs-chromium\trace.zip]]
@@ -149,8 +149,8 @@ Cols count: 4
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="practicePage.spec.js" timestamp="2024-01-06T08:02:08.334Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.256" errors="0">
-<testcase name="practice page" classname="practicePage.spec.js" time="2.256">
+<testsuite name="practicePage.spec.js" timestamp="2024-01-13T03:33:48.959Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.14" errors="0">
+<testcase name="practice page" classname="practicePage.spec.js" time="1.14">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\practicePage-practice-page-chromium\trace.zip]]
