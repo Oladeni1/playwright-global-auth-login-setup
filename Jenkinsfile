@@ -1,7 +1,7 @@
 pipeline {
   agent { 
     docker { 
-      image 'mcr.microsoft.com/playwright:v1.17.2-focal'
+      image 'node:20.10.0-alpine3.19' 
     } 
   }
   stages {
