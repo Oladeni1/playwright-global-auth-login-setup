@@ -7,13 +7,13 @@ pipeline {
   stages {
     stage('install playwright test') {
       steps {
-        sh 'npm i -D @playwright/test'
+        bash 'npm i -D @playwright/test'
         
       }
     }
     stage('install playwright') {
       steps {
-        sh 'npx playwright install'
+        bash 'npx playwright install'
       }
     }
     stage('help') {
@@ -23,7 +23,7 @@ pipeline {
     }
     stage('run e2e tests') {
       steps {
-        sh 'npx playwright test' 
+        bash 'npx playwright test' 
       }
     }
   }
