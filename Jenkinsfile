@@ -5,15 +5,10 @@ pipeline {
     } 
   }
   stages {
-    stage('install node') {
+    stage('install playwright') {
       steps {
-          npm install
-      }
-    }
-    stages {
-      stage('install playwright') {
-        steps {
-            npx playwright install
+        npm install
+        npx playwright install
       }
     }
     stage('get help') {
