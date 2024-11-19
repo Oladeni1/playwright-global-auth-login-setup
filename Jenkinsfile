@@ -5,20 +5,21 @@ pipeline {
     } 
   }
   stages {
-    stage('install playwright') {
+    stage('install node and playwright') {
       steps {
         bat '''
+          npm install
           npm i -D @playwright/test
           npx playwright install
         '''
       }
     }
-    stage('help') {
+    stage('get help') {
       steps {
         bat 'npx playwright test --help'
       }
     }
-    stage('test') {
+    stage('run test') {
       steps {
         bat '''
           npx playwright test --list
