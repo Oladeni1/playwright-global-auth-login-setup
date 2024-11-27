@@ -7,28 +7,23 @@ pipeline {
   stages {
     stage('install playwright') {
       steps {
-        sh '''
-          npm i -D @playwright/test
-          npx playwright install
-        '''
+        npm install
+        npx playwright install
       }
     }
-    stage('help') {
+    stage('get help') {
       steps {
-        sh 'npx playwright test --help'
+        npx playwright test --help
       }
     }
-    stage('test') {
+    stage('run test') {
       steps {
-        sh '''
           npx playwright test --list
           npx playwright test
-        '''
       }
       post {
         success {
-          archiveArtifacts(artifacts: 'homepage-*.png', followSymlinks: false)
-          sh 'rm -rf *.png'
+          archiveArtifacts(artifacts: 'homepage-*.png', followSymlinks: false) 'rm -rf *.png'
         }
       }
     }
