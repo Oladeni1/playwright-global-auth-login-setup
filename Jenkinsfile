@@ -4,33 +4,33 @@ pipeline {
         nodejs 'Node22'  // Ensure this name matches Jenkins global tool config
   }
   stages {
-    stage('install playwright Dependencies') {
+    stage('Install Playwright Dependencies') {
       steps {
         bat '''
           npm i -D @playwright/test
         '''
       }
     }
-     stage('install playwright') {
+     stage('Install Playwright') {
       steps {
         bat '''
           npx playwright install
         '''
       }
     }
-    stage('help') {
+    stage('Get Help') {
       steps {
         bat 'npx playwright test --help'
       }
     }
-    stage('List all test') {
+    stage('List All Tests') {
       steps {
         bat '''
           npx playwright test --list
         '''
       }
     }
-    stage('Run test') {
+    stage('Run All Tests') {
       steps {
         bat '''
           npx playwright test
