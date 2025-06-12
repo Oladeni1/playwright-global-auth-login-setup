@@ -25,12 +25,19 @@ pipeline {
           npx playwright test --reporter=html
         '''
       }
-      post {
-        success {
-          archiveArtifacts(artifacts: 'homepage-*.png', followSymlinks: false)
-          bat 'rm -rf *.png'
+    }
+    stage('Archive Report') {
+            steps {
+                archiveArtifacts artifacts: 'playwright-report/**', fingerprint: true
+            }
         }
-      }
+    }
+    post {
+        always {
+            echo 'Pipeline execution completed.'
+        }
+    }
+}
     }
   }
 }
