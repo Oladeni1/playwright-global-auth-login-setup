@@ -1,8 +1,7 @@
 pipeline {
-  agent { 
-    docker { 
-      image 'mcr.microsoft.com/playwright:v1.49.0-noble'
-    } 
+  agent any
+    tools {
+        nodejs 'Node22'  // Ensure this name matches Jenkins global tool config
   }
   stages {
     stage('install playwright') {
