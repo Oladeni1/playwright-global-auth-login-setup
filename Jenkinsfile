@@ -17,12 +17,17 @@ pipeline {
         bat 'npx playwright test --help'
       }
     }
-    stage('test') {
+    stage('List all test') {
       steps {
         bat '''
           npx playwright test --list
-          npx playwright test
-          npx playwright test --reporter=html
+        '''
+      }
+    }
+    stage('Run test') {
+      steps {
+        bat '''
+          npx playwright test --headed
         '''
       }
     }
